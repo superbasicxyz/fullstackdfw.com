@@ -8,9 +8,13 @@ module.exports = {
   plugins: [require('@tailwindcss/forms')],
   theme: {
     extend: {
+      colors: {
+        red: '#ff0000',
+        blue: '#0000ff',
+      },
       fontFamily: {
         inter: '"Inter", sans-serif;',
       },
     },
-  }
+  },
 };
