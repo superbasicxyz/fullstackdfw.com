@@ -185,3 +185,20 @@ hr {
 #privacy-notice-button-container:hover {
   @apply bg-gray-500 rounded cursor-pointer;
 }
+
+.logo {
+  @apply font-mono text-xl bg-gray-900 text-white pt-2 pb-3 pl-4 pr-5;
+  box-shadow: 8px 8px 0 #ff0000, -8px -8px 0 #0000ff;
+}
+
+.cta {
+  @apply mx-5 font-mono text-white pt-2 pb-3 pl-4 pr-5;
+}
+
+.cta-1 {
+  box-shadow: 8px 8px 0 #ffaaff, -8px -8px 0 #aaffff;
+}
+
+.cta-2 {
+  box-shadow: 8px 8px 0 #ffff00, -8px -8px 0 #000000;
+}
