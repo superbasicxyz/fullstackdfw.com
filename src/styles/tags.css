@@ -20,7 +20,7 @@
 }
 
 .tag.cats {
-  @apply bg-red-500;
+  @apply bg-red;
 }
 
 .tag.enchiladas {
@@ -28,7 +28,7 @@
 }
 
 .tag.beer {
-  @apply bg-blue-500;
+  @apply bg-blue;
 }
 
 .tag.spirituality {

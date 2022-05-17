@@ -1,17 +1,18 @@
 /* Font (see https://fonts.google.com) */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* Prism Code Highlighting Theme (see https://prismjs.com) */
 @import url('https://cdn.jsdelivr.net/npm/prism-themes@1.5.0/themes/prism-dracula.css');
 
-:not(pre) > code[class*="language-"] { /* Fixes issue where theme removes indentation. */
-	white-space: pre;
+:not(pre) > code[class*='language-'] {
+  /* Fixes issue where theme removes indentation. */
+  white-space: pre;
 }
 
 html,
 body {
-  @apply antialiased text-gray-300 bg-gray-900;
-  font-family: 'Open Sans', sans-serif;
+  @apply antialiased bg-gray-50 text-gray-900 dark:text-gray-50 dark:bg-gray-900;
+  font-family: 'Archivo', sans-serif;
 }
 
 h1,
@@ -28,15 +29,21 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  @apply text-gray-900 dark:text-gray-50;
+}
+
 h1 > a,
 h2 > a,
 h3 > a,
 h4 > a,
 h5 > a,
-h6 > a,
+h6 > a {
+  @apply text-gray-900 dark:text-gray-50;
+}
+
 a {
-  @apply text-white;
+  @apply text-blue dark:text-gray-50;
 }
 
 h1 {
@@ -139,31 +146,31 @@ hr {
 }
 
 .next-page::after {
-  content: " ►";
+  content: ' ►';
 }
 
 .previous-page::before {
-  content: "◄ ";
+  content: '◄ ';
 }
 
 .first-page::before {
-  content: "| ";
+  content: '| ';
 }
 
 .last-page::after {
-  content: " |";
+  content: ' |';
 }
 
 .top-notice {
-  @apply sticky top-0 flex justify-center bg-blue-600 py-1 -mt-1 text-sm;
+  @apply sticky top-0 flex justify-center bg-blue py-1 -mt-1 text-sm;
 }
 
 .top-notice > a::before {
-  content: "🔥 ";
+  content: '🔥 ';
 }
 
 .top-notice > a::after {
-  content: " 🔥";
+  content: ' 🔥';
 }
 
 #privacy-notice-button {
@@ -177,4 +184,21 @@ hr {
 
 #privacy-notice-button-container:hover {
   @apply bg-gray-500 rounded cursor-pointer;
+}
+
+.logo {
+  @apply font-mono text-xl bg-gray-900 text-white pt-2 pb-3 pl-4 pr-5;
+  box-shadow: 8px 8px 0 #ff0000, -8px -8px 0 #0000ff;
+}
+
+.cta {
+  @apply mx-5 font-mono text-white pt-2 pb-3 pl-4 pr-5;
+}
+
+.cta-1 {
+  box-shadow: 8px 8px 0 #ffaaff, -8px -8px 0 #aaffff;
+}
+
+.cta-2 {
+  box-shadow: 8px 8px 0 #ffff00, -8px -8px 0 #000000;
 }
