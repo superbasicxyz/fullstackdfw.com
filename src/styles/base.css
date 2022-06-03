@@ -202,3 +202,7 @@ hr {
 .cta-2 {
   box-shadow: 8px 8px 0 #ffff00, -8px -8px 0 #000000;
 }
+
+.cta-3 {
+  box-shadow: 8px 8px 0 #ffcc00, -8px -8px 0 #cceeee;
+}
