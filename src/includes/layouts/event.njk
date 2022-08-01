@@ -3,7 +3,7 @@
 {% block body %}
   <h1>{{ title }}</h1>
   <h2>with {{ speaker }}</h2>
-  <time class="block mt-4">{{ date }}</time>
+  <time class="block mt-4">{{ date | dateDisplay }}</time>
   <div class="mt-8">
     {{ content | safe }}
   </div>
