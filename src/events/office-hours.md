@@ -2,7 +2,6 @@
 title: Office Hours
 speaker: Super Basic
 date: 2022-05-11 12:30:00
-layout: event.njk
 ---
 
 Come chat with other full stack developers around DFW!

@@ -2,7 +2,6 @@
 title: "Cloud Native Web Development with Microsoft"
 speaker: Shane Wood
 date: 2022-03-09 12:30:00
-layout: event.njk
 ---
 
 An end-to-end demonstration on using Microsoft tools to write, deploy and maintain fully-PaaS web apps. Tech featured will include Azure, Azure DevOps, Blazor in C# (using wasm) and more!

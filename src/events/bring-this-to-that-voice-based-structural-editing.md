@@ -2,7 +2,6 @@
 title: "Bring This to That: Voice-Based Structural Editing"
 speaker: Will Sommers
 date: 2022-04-13 12:30:00
-layout: event.njk
 ---
 
 A few months ago, full stack developer Will Sommers started to experience wrist pain. He began to examine what it would take to reduce his typing input, with a special focus on avoiding 3 character combinations and repetitive strikes.
