@@ -1,8 +1,7 @@
 ---
 pagination:
-  data: collections.post
+  data: collections.event
   size: 6
-  alias: posts
   reverse: true
 permalink: "/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
@@ -12,4 +11,12 @@ permalink: "/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1
 {% block body %}
   <p>{{site.description}}</p>
   <p>We host online learning lunches on the second Wednesday of the month at 12:30 PM CT on our Discord server, linked below.  Join us, won't you?</p>
+  <h2 class="mt-8 mb-4">Past Events</h2>
+  {%- for event in collections.event | reverse -%}
+    <div class="mb-4">
+      <a href="{{ event.url }}">{{ event.data.title }}</a>
+      <div class="font-bold">{{event.data.speaker }}</div>
+      <div>{{ event.data.date | dateDisplay }}</div>
+    </div>
+  {%- endfor -%}
 {% endblock %}
