@@ -12,66 +12,24 @@
 html,
 body {
   @apply antialiased bg-gray-50 text-gray-900 dark:text-gray-50 dark:bg-gray-900;
-  font-family: 'Archivo', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply font-bold leading-tight mt-3;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply text-gray-900 dark:text-gray-50;
-}
-
-h1 > a,
-h2 > a,
-h3 > a,
-h4 > a,
-h5 > a,
-h6 > a {
-  @apply text-gray-900 dark:text-gray-50;
+  font-family: 'IBM Plex Sans', sans-serif;
+  @apply text-lg;
 }
 
 a {
-  @apply text-blue dark:text-gray-50;
-}
-
-h1 {
-  @apply text-5xl;
-}
-
-h2 {
-  @apply text-3xl;
-}
-
-h3 {
-  @apply text-2xl;
-}
-
-h4 {
-  @apply text-xl;
-}
-
-a {
-  @apply font-bold;
+  @apply border-dotted border-b border-gray-300;
 }
 
 a:hover {
-  @apply underline;
+  @apply border-solid border-b border-gray-300;
 }
 
 p {
-  @apply text-lg my-2;
+  @apply  my-4;
+}
+
+li {
+  @apply mb-4;
 }
 
 pre {
@@ -127,7 +85,7 @@ hr {
 
 .content > ol > li,
 .content > ul > li {
-  @apply text-lg mr-12 ml-12 pr-2 pl-2;
+  @apply text-lg mr-12 ml-12 pr-2 pl-2 mb-2;
 }
 
 .content > p {
@@ -162,7 +120,7 @@ hr {
 }
 
 .top-notice {
-  @apply sticky top-0 flex justify-center bg-blue py-1 -mt-1 text-sm;
+  @apply sticky top-0 flex justify-center py-1 -mt-1 text-sm;
 }
 
 .top-notice > a::before {
@@ -192,13 +150,13 @@ hr {
 }
 
 .cta {
-  @apply mx-5 font-mono text-white pt-2 pb-3 pl-4 pr-5;
+  @apply mx-5 pt-2 pb-3 pl-4 pr-5;
 }
 
-.cta-1 {
+/* .cta-1 {
   box-shadow: 8px 8px 0 #ffaaff, -8px -8px 0 #aaffff;
 }
 
 .cta-2 {
   box-shadow: 8px 8px 0 #ffff00, -8px -8px 0 #000000;
-}
+} */

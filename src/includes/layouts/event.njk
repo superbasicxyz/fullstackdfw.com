@@ -2,12 +2,12 @@
 
 {% block body %}
   <h1>{{ title }}</h1>
-  <h2>with {{ speaker }}</h2>
-  <time class="block mt-4">{{ date | dateDisplay }}</time>
-  <div class="mt-8">
+  <h2 class="mb-4">with {{ speaker }}</h2>
+  <time class="block mb-6">{{ date | dateDisplay }}</time>
+  <div class="content">
     {{ content | safe }}
   </div>
   <hr />
-  <p><a href="https://fullstackdfw.com">FullstackDFW</a> is an online-first tech-enthusiast group serving folks around DFW interested in full stack development.
-  We host online learning lunches on the second Wednesday of the month at 12:30 PM CT on our <a href="https://discord.com/invite/uYfkpwUT45">Discord server</a>.</p>
+  <p><a href="https://fullstackdfw.com">Full Stack DFW</a> is an online-first tech-enthusiast group serving folks around the Dallas Fort Worth metroplex who are interested in full stack development.</p>
+  <p>We host online learning lunches on the second Wednesday of the month at 12:30 PM CT.</p>
 {% endblock %}
