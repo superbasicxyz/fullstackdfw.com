@@ -20,6 +20,8 @@ module.exports = config => {
   config.addFilter('dateDisplay', require('./filters/date-display.js'));
 
   config.addPassthroughCopy({ public: './' });
+  config.addPassthroughCopy("CNAME");
+
 
   config.setBrowserSyncConfig({
     files: ['dist/**/*'],
