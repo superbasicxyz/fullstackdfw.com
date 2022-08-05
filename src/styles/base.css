@@ -17,15 +17,15 @@ body {
 }
 
 a {
-  @apply border-dotted border-b border-gray-300;
+  @apply border-b border-gray-300 border-dotted;
 }
 
 a:hover {
-  @apply border-solid border-b border-gray-300;
+  @apply border-solid;
 }
 
 p {
-  @apply  my-4;
+  @apply my-4;
 }
 
 li {
