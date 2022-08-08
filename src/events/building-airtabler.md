@@ -1,7 +1,7 @@
 ---
 title: "Building Airtabler: a Better Airtable Client in TypeScript"
 speaker: James Pierce
-date: 2022-08-10 12:30:00
+date: 2022-08-17 12:30:00
 ---
 
 
