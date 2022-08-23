@@ -149,8 +149,11 @@ hr {
   box-shadow: 8px 8px 0 #ff0000, -8px -8px 0 #0000ff;
 }
 
+.footer-title{
+  @apply text-xl text-center pt-4;
+}
 .cta {
-  @apply mx-5 pt-2 pb-3 pl-4 pr-5;
+  @apply p-3;
 }
 
 /* .cta-1 {
