@@ -10,4 +10,4 @@ Sometimes a service’s dominant library doesn’t make it easy to do what we ne
 
 ---
 
-James Pierce is a full stack developer at [superbasic.xyz](https://www.superbasic.xyz/) where he builds web software that people love to use. Previously, he was a software engineer at Real Geeks. He has worked on projects for clients like Dr Pepper, Shiner and Schwab, but he cut his teeth on Doom mods and Geocities fan pages.
+James Pierce is a full stack developer at [superbasic.xyz](https://www.superbasic.xyz/) where he builds web software that people love to use. Previously, he was a software engineer at Real Geeks. He has worked on projects for clients like Dr Pepper, Shiner and Schwab, but he cut his teeth on Doom mods and Geocities fan pages.  You can follow him at [@_jameswpierce](https://twitter.com/_jameswpierce).
