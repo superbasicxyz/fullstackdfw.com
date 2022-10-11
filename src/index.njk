@@ -10,34 +10,40 @@ permalink: "/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1
 
 {% block body %}
 
-  <h2>Welcome!</h2>
-  <p>Full Stack DFW is an online-first tech-enthusiast group serving folks around the Dallas Fort Worth metroplex who are interested in full stack development.</p>
-  <p>We host online learning lunches on the second Wednesday of the month at 12:30 PM CT on our Discord server, linked below.</p>
-  <p>Join us – won't you?</p>
+  <div>
+    <h2 class="text-2xl">👋 Hello</h2>
+    <p>Full Stack DFW is an online-first tech-enthusiast group serving folks around the Dallas Fort Worth metroplex who are interested in full stack development.</p>
+    <p>We host online learning lunches on the second Wednesday of the month at 12:30 PM CT on our Discord server, linked below.</p>
+    <p>Join us – won't you?</p>
+  </div>
   <hr/>
 
-  <p class="max-w-xl mb-4 mt-16"><a href="https://dfwfwd.curated.co/">Subscribe to DFW»FWD</a><br/><br/> Receive our weekly Wednesday newsletter for recommended reads about DFW, tech, and day-of reminders for our Lunch'n'Learns.</p>
-<iframe class="" src="https://dfwfwd.curated.co/embed?color1=&color2=121826&color_bg_button=2c2c2d&color_border=transparent&color_button=ffffff&color_links=979797&color_terms=808080&title=" width="450" height="210" frameborder="0" style="max-width: 100%"></iframe>
-
-
-  <hr/>
-  <h2 class="mt-12 mb-4">Events</h2>
+  <h2 class="text-2xl mt-12 mb-4">🎈 Events</h2>
   <ol class="grid md:grid-cols-2 gap-4 mb-4">
-  {%- for event in collections.event | reverse -%}
-    <li >
-      <h3><time>{{ event.data.date | dateDisplay }}</time></h3>
-      <h4><a href="{{ event.url }}">{{ event.data.title }}</a></h4>
-      <h4>{{event.data.speaker }}</h4>
-    </li>
-  {%- endfor -%}
+    {%- for event in collections.event | reverse -%}
+      <li >
+        <h3>
+          <a class="border-none" href="{{ event.url }}">
+            <time class="text-sm">{{ event.data.date | dateDisplay }}</time><br>
+            <span class="border-b border-dotted">{{ event.data.title }}</span><br>
+            <span class="text-base">{{event.data.speaker }}</span>
+          </a>
+        </h3>
+      </li>
+    {%- endfor -%}
   </ol>
 
-  <h2 class="mt-8 mb-4">Calendar</h2>
-  <p class="italic">Recently published events might not immediately display.</p>
+  <h2 class="text-2xl mt-8 mb-4">📆 Calendar</h2>
+
   <iframe width="100%" class="mx-auto" src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTitle=0&showNav=0&showDate=0&mode=AGENDA&showPrint=0&showTabs=0&showCalendars=0&showTz=0&title=Full%20Stack%20DFW&src=MW05bzhtOGQ3aGMwOTk1bXNmZmRjYjBuaTZjN3B2YjJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4" style="border-width:0" width="325" height="300" frameborder="0" scrolling="no"></iframe>
 
+  <p class="block text-center text-sm italic mt-4">Recently published events might not immediately display.</p>
 
-  <p class="block text-center text-sm mt-4"> If you are interested in speaking, please fill out <a href="https://forms.gle/PaXtDD4DRK976pF86">this form</a>.</p>
+  <hr>
+  <h2 class="text-2xl mt-8 mb-4">🎙 Speak at a Lunch'n'Learn</h2>
+  <p>We are always looking for speakers! This is a great venue to develop your presentation skills and we are glad to help you put your talk together.</p>
+
+  <p>If you are interested in speaking, please fill out <a href="https://forms.gle/PaXtDD4DRK976pF86">this form</a>.</p>
 
 
 {% endblock %}
