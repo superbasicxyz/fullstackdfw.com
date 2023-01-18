@@ -10,6 +10,8 @@ date: 2022-12-14 12:30:00
 David Jahn walks us through a broad overview of logging, metrics, and observability in distributed software systems.
 
 - [📺 Watch the video](https://www.youtube.com/watch?v=yi6ygZcvBgo)
+- [👉 View the slides here](/20221214-observability.pdf)
+
 
 ---
 
