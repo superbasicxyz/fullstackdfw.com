@@ -9,7 +9,8 @@ date: 2023-01-18 12:30:00
 
 The end of 2022 saw a frenzy of hype around ChatGPT and language learning models (LLMs) in general.  So join us for this Lunch'n'Learn with Eric Wright, a data scientist at Microsoft, who will lead us through a nuts-and-bolts discussion of transformers, "the bitter lesson," and more.
 
-- [👉 View the slides here](/20230118-gpt.pdf)
+- [👉 View the slides](/20230118-gpt.pdf)
+- [👀 Watch the video](https://www.youtube.com/watch?v=URNm0bU_Kbk)
 
 ---
 
