@@ -4,6 +4,8 @@ speaker: Shane Wood
 date: 2022-03-09 12:30:00
 ---
 
+![banner](/20220309.jpg)
+
 An end-to-end demonstration on using Microsoft tools to write, deploy and maintain fully-PaaS web apps. Tech featured will include Azure, Azure DevOps, Blazor in C# (using wasm) and more!
 
 ---

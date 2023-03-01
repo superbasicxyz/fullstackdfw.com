@@ -4,6 +4,9 @@ speaker: Jeff Cooper
 date: 2022-07-13
 ---
 
+![banner](/20220713.jpg)
+
+
 This month Jeff Cooper will be joining us to show off some of his iOS audio work for us.
 
 ---

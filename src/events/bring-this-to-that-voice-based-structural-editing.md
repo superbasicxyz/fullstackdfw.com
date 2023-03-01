@@ -4,6 +4,9 @@ speaker: Will Sommers
 date: 2022-04-13 12:30:00
 ---
 
+![banner](/20220413.jpg)
+
+
 A few months ago, full stack developer Will Sommers started to experience wrist pain. He began to examine what it would take to reduce his typing input, with a special focus on avoiding 3 character combinations and repetitive strikes.
 
 In this talk, he will share several arguments for using voice coding for your day to day. Perhaps you'll use it to navigate between files, to run that one key combo you always forget – or even to draft and edit code.

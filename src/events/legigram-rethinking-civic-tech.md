@@ -4,6 +4,9 @@ speaker: Chris Reed
 date: 2022-06-08 12:30:00
 ---
 
+![banner](/20220608.jpg)
+
+
 Join us for a deep dive about [Legigram.com](https://legigram.com), a web app for quickly browsing city council agendas, and a discussion of the challenges facing civic tech initiatives.
 
 [👉 View the slides](https://seereadcode.github.io/legigram-deck/)

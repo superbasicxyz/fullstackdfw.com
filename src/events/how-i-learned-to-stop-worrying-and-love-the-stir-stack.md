@@ -4,6 +4,9 @@ speaker: Chris Reed
 date: 2022-02-09 12:30:00
 ---
 
+![banner](/20220209.png)
+
+
 Svelte, Tailwind, Inertia, Rails – oh my! Standing on the shoulders of giants, we are. We’ll explore:
 
 - the complexity of contemporary web development
