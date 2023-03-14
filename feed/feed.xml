@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Full Stack DFW</title>
-	<subtitle>An online-first tech-enthusiast group serving folks around DFW interested in full stack development.</subtitle>
+	<subtitle>An online-first tech-enthusiast group dedicated to learning and improving tech around the Dallas Fort Worth Metroplex and beyond</subtitle>
 	
 	<link href="https://www.fullstackdfw.com/feed/feed.xml" rel="self"/>
 	<link href="https://www.fullstackdfw.com"/>
