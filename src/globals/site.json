@@ -1,6 +1,7 @@
 {
+  "longName": "Full Stack DFW - Serving North Texas",
   "name": "Full Stack DFW",
-  "description": "An online-first tech-enthusiast group serving folks around DFW interested in full stack development.",
+  "description": "An online-first tech-enthusiast group dedicated to learning and improving tech around the Dallas Fort Worth Metroplex and beyond",
   "url": "https://www.fullstackdfw.com",
   "baseUrl": "/",
   "author": {
